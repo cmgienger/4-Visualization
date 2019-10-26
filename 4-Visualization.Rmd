@@ -2,7 +2,9 @@
 title: "4 Visualization"
 author: "CM Gienger"
 date: "November 28, 2018"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
