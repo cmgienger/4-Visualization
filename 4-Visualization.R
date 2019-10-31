@@ -52,7 +52,7 @@ ggplot(compensation, aes(x = Fruit)) +
 ggplot(compensation, aes(x = Fruit)) +
   geom_histogram(binwidth = 15)
 
-#feceting
+#faceting
 ggplot(compensation, aes(x = Fruit)) +
   geom_histogram(binwidth = 15) +
   facet_wrap(~Grazing)

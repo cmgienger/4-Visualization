@@ -15,7 +15,7 @@ library(ggplot2)
 library(gridExtra)
 ```
 
-```{r Ch4 Code}
+```{r import data}
 #read in datafile
 compensation <- read.csv('compensation.csv')
 ```
