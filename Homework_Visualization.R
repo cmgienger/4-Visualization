@@ -20,13 +20,12 @@
 
 #7. Add the raw data points on top of the boxplots.
 
-#8. Change axes lables to NUmber of Cylinders and Fuel Economy (miles per gallon).
+#8. Change axes lables to Number of Cylinders and Fuel Economy (miles per gallon).
 
 #9. Change the colors of the boxplot to be something other than the default.
 
 #10. Annotate plot with your name and save the plot to the local directory.
 
-# Send me your R Project File; contains the .Rproj file, the script, and the figure outputs.
-#You may have to zip before sending, depending on which email program you use.
-
-giengerc@apsu.edu
+# Submit your R Project File to the Assignments area on D2L.
+# Your submission should be a folder containing the .Rproj file, the script, and the figure outputs.
+# You may have to zip (compress) the folder before uploading.
