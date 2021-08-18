@@ -1,6 +1,7 @@
 ---
 title: "4 Visualization"
 author: "BIOL 5000"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   html_document:
     df_print: paged
