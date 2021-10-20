@@ -33,4 +33,5 @@ Temporary Items
 .apdisk
 
 
-/assignment_code   #move assigned homework out of this folder for students to see
+assignment_code/
+#move assigned homework out of this folder for students to see
