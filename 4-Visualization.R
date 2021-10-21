@@ -79,10 +79,12 @@ grid.arrange(eg_scatter, eg_box, nrow = 1)
 eg_scatter
 
 #add more intuitive axis labels
-eg_scatter + xlab("Root Biomass") + ylab("Fruit Production")
+eg_scatter + 
+  xlab("Root Biomass") + ylab("Fruit Production")
 
 #re-scale the axes (x,y)
-eg_scatter + xlim(0, 20) + ylim(0, 140)
+eg_scatter + 
+  xlim(0, 20) + ylim(0, 140)
 
 #putting custom text inside figure ; annotate() function
 eg_scatter +
@@ -90,7 +92,8 @@ eg_scatter +
            label = c("Text up here...","...and text down here"))
 
 #adjust range of axes, frequency and location of tick marks
-eg_scatter + scale_x_continuous(limits = c(4, 11), breaks = 4:11)
+eg_scatter + 
+  scale_x_continuous(limits = c(4, 11), breaks = 4:11)
 
 #customizing the colors allocated to each group using scale_colour_manual() layering.
 ggplot(data = compensation, aes(x = Root, y = Fruit, colour = Grazing)) +
@@ -111,6 +114,9 @@ eg_scatter +
 
 #the theme elements you can adjust
 ? theme #click on help tab to see possible theme elements
+
+#here is a figure of different theme elements
+browseURL("https://henrywang.nl/ggplot2-theme-elements-demonstration/")
 
 #Some theme() syntax for axis titles and ticks
 eg_box +
