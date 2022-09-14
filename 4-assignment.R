@@ -3,6 +3,8 @@
 #######################################################
 
 #Your homework script and outputs should be contained in a new R Project Folder (contains .Rproj file).
+#We want outputs such as figures to be contained in our 'ecosystem'. 
+
 
 #1. Using the mtcars dataset, make a scatterplot showing the relationship between displacement (predictor)
 #and horsepower (response).
