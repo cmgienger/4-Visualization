@@ -11,13 +11,13 @@
 
 #2. Color the points by the number of cylinders.
 #hint: If you 'str(mtcars)' you will notice that cyl a continuous numeric variable (either 4, 6, or 8 cylinders).
-#use as.factor(cyl) to force cyl to be a categorical variable.
+#use as.factor(cyl) or factor(cyl) to force cyl to be a categorical variable.
 
 #3. Change the axes labels to Displacement (inches^3) and Horsepower. 
 
 #4. Annotate the plot with your name (so I know who made it)
 
-#5. Save the plot to the local directory (scripted command).
+#5. Save the plot to the local directory as a .png file (scripted command).
 
 #6. Make a boxplot showing the distribution of miles per gallon as a function of the number of cylinders.
 #hint: you should change the cyl variable from continuous to categorical using as.factor(cyl)
